@@ -1,7 +1,7 @@
 import React from "react";
 import Swiper from "react-id-swiper";
 // SCSS
-
+import "swiper/swiper-bundle.css";
 // Components
 import PartnerBox from "./partnerBox";
 // Assets
