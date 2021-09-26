@@ -1,7 +1,7 @@
 import React from "react";
 import Swiper from "react-id-swiper";
 // SCSS
-import "swiper/css/swiper.css";
+
 // Components
 import PartnerBox from "./partnerBox";
 // Assets
@@ -83,5 +83,5 @@ class MutipleSlidesPerView extends React.Component {
     };
     return <Swiper {...params}>{partnersRender}</Swiper>;
   }
-};
+}
 export default MutipleSlidesPerView;
