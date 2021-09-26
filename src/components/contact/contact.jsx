@@ -143,11 +143,11 @@ class Contact extends React.Component {
               </form>
             </Col>
 
-            {/* <Col md={12} lg={6}>
+            <Col md={12} lg={6}>
               <div className="flex-center">
                 <img src={ContactBackground} alt="contact background" />
               </div>
-            </Col> */}
+            </Col>
           </Row>
           <ContactInfo />
           <ContactSocial />
