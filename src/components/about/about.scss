@@ -1,0 +1,16 @@
+@import "../../style/App.scss";
+
+#about {
+  padding: 60px 0;
+}
+
+@media screen and (max-width: 990px) {
+  #about {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 520px) {
+  .desk-only {
+    display: none;
+  }
+}
