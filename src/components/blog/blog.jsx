@@ -2,7 +2,6 @@ import React from "react";
 import Swiper from "react-id-swiper";
 // SCSS
 import "./blog.scss";
-import "swiper/css/swiper.css";
 // Assets
 import Preview01 from "../../assets/blog/story01/preview.png";
 import Preview02 from "../../assets/blog/story02/preview.png";
