@@ -8,7 +8,7 @@ const blog = (props) => (
       <img src={props.article.image} alt="blog story" />
       <div className="blog__hover flex-center">
         <h4 className="font30 weight800">
-          <a href={props.link} target="_blank">
+          <a href={props.article.link} target="_blank">
             READ MORE
           </a>
         </h4>
