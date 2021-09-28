@@ -7,7 +7,7 @@ const projectBox = (props) => (
     <div className="portfolio__hover-info flex-center">
       <div className="text-center">
         {/* <u> */}
-          <p className="font20 weight800">{props.title}</p>
+        <p className="font20 weight800">{props.title}</p>
         {/* </u> */}
         <div
           style={{
@@ -23,9 +23,10 @@ const projectBox = (props) => (
         </div>
         <p className="font12 weight800">{props.tag}</p>
         <br />
-        <button className="btn">
-          <a href={props.link}>Link to Code</a>
-        </button>
+
+        <a target="_blank" href={props.link}>
+          <button className="btn">Link to Code </button>
+        </a>
       </div>
     </div>
   </div>

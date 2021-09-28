@@ -18,6 +18,17 @@ const blog = (props) => (
       <h4 className="font15 weight800">{props.article.title}</h4>
       <p className="font12 weight500 padding10">{props.article.description}</p>
       <p className="font12 weight500">{props.article.date}</p>
+      <p
+        style={{
+          marginTop: "4rem",
+          padding: "1rem",
+          backgroundColor: "#ffc7bd",
+          textAlign: "center",
+        }}
+      >
+        {" "}
+        {props.article.type}{" "}
+      </p>
     </div>
   </div>
 );

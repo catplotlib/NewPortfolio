@@ -11,6 +11,8 @@ import Preview3 from "../../assets/portfolio/project03/preview.png";
 import Preview4 from "../../assets/portfolio/project04/preview.png";
 import Preview5 from "../../assets/portfolio/project05/preview.png";
 import Preview6 from "../../assets/portfolio/project06/preview.png";
+import Preview7 from "../../assets/portfolio/project07/preview.png";
+import Preview8 from "../../assets/portfolio/project08/preview.png";
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -24,28 +26,30 @@ class Portfolio extends React.Component {
       projects: [
         {
           id: "1",
+          preview: Preview8,
+          title: "CreatorHQ",
+          sub: "Support your favourite creators with Crypto.",
+          tag: "react",
+          link: "https://github.com/CreatorHQ",
+        },
+        {
+          id: "2",
+          preview: Preview7,
+          title: "Madlibs",
+          tag: "react",
+          link: "https://github.com/catplotlib/Madlibz",
+          sub: "A madlibs website that takes input from the user and turns it into a hilarious script!",
+        },
+        
+        {
+          id: "3",
           preview: Preview1,
           title: "RainCheck- Weather App",
           sub: "A weather app made in react native that fetches the weather API and shows the current teperature and weather and forecasts temperature for the next two days.",
           tag: "react-native",
-          link: "https://text-based-adventure-game.netlify.app/",
-        },
-        {
-          id: "2",
-          preview: Preview2,
-          title: "Aximos-The Adventure Game",
           link: "https://github.com/catplotlib/WeatherApp",
-          sub: "A choose your own story text based game, made completely in React and deployed using netlify. ",
-          tag: "react",
         },
-        {
-          id: "3",
-          preview: Preview3,
-          title: "The Movie Quiz",
-          tag: "react-native",
-          sub: "A simple app with minimal UI for a quiz application on movies.",
-          link: "https://github.com/catplotlib/MovieQuiz",
-        },
+
         {
           id: "4",
           preview: Preview4,
@@ -64,6 +68,22 @@ class Portfolio extends React.Component {
         },
         {
           id: "6",
+          preview: Preview2,
+          title: "Aximos-The Adventure Game",
+          link: "https://github.com/catplotlib/Adventure-based-Text-game",
+          sub: "A choose your own story text based game, made completely in React and deployed using netlify. ",
+          tag: "react",
+        },
+        {
+          id: "7",
+          preview: Preview3,
+          title: "The Movie Quiz",
+          tag: "react-native",
+          sub: "A simple app with minimal UI for a quiz application on movies.",
+          link: "https://github.com/catplotlib/MovieQuiz",
+        },
+        {
+          id: "8",
           preview: Preview6,
           title: "BarTinder",
           tag: "express",

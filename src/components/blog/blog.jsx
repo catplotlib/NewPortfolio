@@ -20,30 +20,56 @@ class Blog extends React.Component {
     stories: [
       {
         image: Preview01,
-        id: "1",
+        id: "2",
         title: "Callbacks, Promises, and Async-Await",
         description:
           "In my last article, I talked about Synchronous and Asynchronous functions and we encountered an issue with...",
         date: "26 July 2021",
+        type:"Blog",
         link: "https://catplotlib.medium.com/callbacks-promises-and-async-await-18c27ad4ee8f",
       },
       {
         image: Preview02,
-        id: "2",
+        id: "1",
         title: "But what is Synchronous and Asynchronous programming?",
         description:
           "Callbacks, Promises, and Async-Awaits…. What are these and why do we even need them? If you are a newbie...",
         date: "20 July 2021",
+        type:"Blog",
         link: "https://medium.com/geekculture/but-what-is-synchronous-and-asynchronous-programming-86d1e92471c",
+      },
+
+      {
+        image: Preview05,
+        id: "3",
+        title:
+          "Comparison of Various Machine Learning Algorithms for Predicting Energy Price in Open Electricity Market",
+        description:
+          "This paper focus on exploring the possibilities for prediction of energy prices using various machine learning (ML) algorithms. Earlier, this...",
+        date: "20 Oct 2020",
+        type:"Paper",
+        link: "https://ieeexplore.ieee.org/document/9307100",
       },
       {
         image: Preview03,
-        id: "3",
+        id: "4",
         title: "MERN Stack Development Series",
         description:
           " I am really excited to announce that I will be starting a new article series on Web development focused...",
         date: "15 July 2021",
+        type:"Blog",
         link: "https://catplotlib.medium.com/mern-stack-development-series-38c49e6c6f6b",
+      },
+      {
+        image: Preview04,
+        id: "5",
+        title:
+          "Application of Nature-Inspired Swarm Optimization Algorithms in Artificial Neural Networks",
+        description:
+          "Over the past decade, Neural Networks have been dominating in terms of versatility and technological success. As are result it...",
+        date: "25 March 2021",
+        type:"Paper",
+        link: "https://ieeexplore.ieee.org/document/9395806",
       },
     ],
   };
@@ -91,7 +117,7 @@ class Blog extends React.Component {
     return (
       <div className="blog" id="blog">
         <div className="wrapper">
-          <Title title="MY BLOGS." />
+          <Title title="BLOGS/ RESEARCH." />
           <p className="font12">Swipe to read more!</p>
           <div className="padding30">
             <Swiper {...params}>{storiesRender}</Swiper>
