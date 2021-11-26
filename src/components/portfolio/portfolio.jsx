@@ -30,7 +30,7 @@ class Portfolio extends React.Component {
           title: "CreatorHQ",
           sub: "Support your favourite creators with Crypto.",
           tag: "react",
-          link: "https://github.com/CreatorHQ",
+          link: "https://github.com/CreatorHQ/CreatorHQ-main",
         },
         {
           id: "2",
